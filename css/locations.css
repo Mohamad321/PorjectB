@@ -1,0 +1,46 @@
+.locationTable {
+    padding-top: 3%;
+    width: 100%;
+}
+
+.locationTable a{
+    text-decoration: none;
+}
+
+.locationTable img {
+    float: right;
+    width:  230px;
+    height: 130px;
+    object-fit: cover;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 20%;
+    width: 60%;
+    border: 1px solid #dddddd;
+    
+    color: black;
+    animation-name: loadLocations;
+    animation-duration: 2s;
+    text-decoration: none;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+  
+/* animations */
+@keyframes loadLocations {
+    from{width:80%; margin-right: 10%; margin-left: 10%;}
+    to{width: 60%; }
+}
+
+
+
+.locations{
+    margin-top: 50%;
+    margin-bottom: 5%;
+}
