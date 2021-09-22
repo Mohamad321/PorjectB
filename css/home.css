@@ -1,73 +1,63 @@
-.homeVideo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+header {
+    position: relative;
+    background-color: black;
+    height: 93vh;
+    min-height: 25rem;
     width: 100%;
-    height: 100%; 
     overflow: hidden;
-}
-
-.homeVideo video {
-    /* Make video to at least 100% wide and tall */
-    min-width: 100%; 
-    min-height: 100%; 
-
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-
-    /* Center the video */
+  }
+  
+  header video {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-
-    filter: blur(5px);
-}
-
-.homeVideo img {
-    margin-top: 42%;
-    margin-left: 45%;
-    width:  130px;
-    height: 130px;
-    object-fit: cover;
-    animation: bounce 2s infinite;
-    animation-direction: alternate;
-}
-
-.homeLogo {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
     position: absolute;
-    font-size: 10vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(92, 139, 87);
-    top: 40%;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    text-align: center;
-    text-shadow: 3px black black;
-    animation-name: homeLogo;
-    animation-duration: 3s;
-}
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
 
-.allLocations{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2vw;
-    text-decoration: none;
-    color: rgb(92, 139, 87);
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    margin-top: 1.5%;
-    
-}
-
-/* animations */
-@keyframes homeLogo {
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes bounce {
-    from{margin-top: 42%;}
-    to{margin-top: 41%;}
-}
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
