@@ -7,8 +7,8 @@
         <script src="js/nav.js"></script>
     </head>
     <body>
-        <?php include "nav.php" ?>
-            <div class="container border-0 shadow rounded-3 overflow-hidden" style="padding-bottom: 20px; margin-top: 5%">
+        <?php include "include/nav.include.php" ?>
+            <div class="container border-0 shadow rounded-3 overflow-hidden" style="padding-bottom: 20px; margin-top: 2%">
 
             <!-- Portfolio Item Heading -->
             <h1 class="my-3">Locatie 1
@@ -27,10 +27,10 @@
                 <h3 class="my-3">Kies een thema</h3>
                 <div class="row">
                     <div class="col">
-                        <img class="img-fluid" src="https://icons-for-free.com/iconfiles/png/512/sport+icon-1320195208765240116.png"><p class="carousel-caption text-primary" style="color: rgb(92, 139, 87); font-size: 20px;">Sport</p>
+                        <img class="img-fluid" src="https://icons-for-free.com/iconfiles/png/512/sport+icon-1320195208765240116.png">
                     </div>
                     <div class="col">
-                        <img class="img-fluid" src="https://thefarmersdairy.co.za/wp-content/uploads/2017/06/green-icon-cropped-700x700-padding-1.jpg"><p class="carousel-caption" style="color: black; font-size: 20px;">Groen</p>
+                        <img class="img-fluid" src="https://thefarmersdairy.co.za/wp-content/uploads/2017/06/green-icon-cropped-700x700-padding-1.jpg">
                     </div>
                     <div class="col">
                         <img class="img-fluid" src="https://www.iconpacks.net/icons/2/free-safety-icon-3599-thumb.png">
@@ -54,6 +54,6 @@
 
             </div>
             <!-- /.container -->
-        <?php include "jq.php" ?>
+        <?php include "include/jq.include.php" ?>
     </body>
 </html>

@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>MiRotterdam</title>
-        <link rel="stylesheet" href="css/home.css">
-        <script src="js/nav.js"></script>
-    </head>
-    <body>
-        <?php include "nav.php" ?>
+<?php 
+    $title = "Home";
+    include "include/nav.include.php"; 
+?>
         <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
         <header>
         <div class="overlay"></div>
@@ -131,6 +126,6 @@
         </div>
         <!-- /.container -->
         </section>
-        <?php include "jq.php" ?>
+        <?php include "include/jq.include.php" ?>
     </body>
 </html>

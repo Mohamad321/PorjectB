@@ -6,9 +6,9 @@
         <script src="js/nav.js"></script>
     </head>
     <body>
-        <?php include "nav.php" ?>
+        <?php include "include/nav.include.php" ?>
 
         
-        <?php include "jq.php" ?>
+        <?php include "include/jq.include.php" ?>
     </body>
 </html>
