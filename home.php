@@ -14,8 +14,9 @@
         <!-- The header content -->
         <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100" style="color: rgb(92, 139, 87);">
-            <!-- <h1 class="display-3">MiRotterdam</h1> -->
+            <div class="w-100" style="color: rgb(255,248,231);">
+            <h1 class="display-3">"introductie"</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
             </div>
         </div>
         </div>
