@@ -95,9 +95,8 @@
         <div class="row">
             <div class="col-sm-8">
             <h2>Over ons</h2>
-            <h4>Lorem ipsum..</h4>
-            <p>Lorem ipsum..</p>
-            <button class="btn btn-default btn-lg">Get in Touch</button>
+            <p>U kent het misschien wel. Een leeg parkje waar niks leuks of moois te vinden is. Mischien zou het wel leuk zijn om daar een voetbalveldje te hebben staan of dat er op een bepaalde plek extra vuilnisbakken kunnen staan.
+            Wij bij MIRotterdam willen ervoor zorgen dat de burgers van Rotterdam hun mening hierover kunnen geven op een makkelijke en prikkelende manier.</p>
             </div>
             <div class="col-sm-4">
             <span class="glyphicon glyphicon-signal logo"></span>
@@ -114,8 +113,8 @@
         <div class="row">
             <div class="col-sm-8">
             <h2>Contact</h2>
-            <h4>Lorem ipsum..</h4>
-            <p>Lorem ipsum..</p>
+            <h4>Cent-R</h4>
+            <p>viegil.warnars@lightwell.eu<br>ip.wijnands@Rotterdam.nl<br>jb.dejongh@Rotterdam.nl<br>+31(0)643123173</p>
             <button class="btn btn-default btn-lg">Get in Touch</button>
             </div>
             <div class="col-sm-4">
