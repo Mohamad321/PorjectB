@@ -1,3 +1,8 @@
+<?php 
+session_start();
+require 'conn/db.php';
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

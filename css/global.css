@@ -1,0 +1,16 @@
+.thema{
+    border: 4px solid white;
+    border-radius: 35px;
+    padding: 10px;
+}
+.thema:hover{
+    border: 4px solid rgb(0,153,76);
+}
+.thema a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.thema a:hover{
+    color: rgb(0,153,76);
+}
