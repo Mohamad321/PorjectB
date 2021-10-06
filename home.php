@@ -85,7 +85,6 @@ include "include/nav.include.php";
                     <h2>Contact</h2>
                     <h4>Cent-R</h4>
                     <p>viegil.warnars@lightwell.eu<br>ip.wijnands@Rotterdam.nl<br>jb.dejongh@Rotterdam.nl<br>+31(0)643123173</p>
-                    <button class="btn btn-default btn-lg">Get in Touch</button>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-signal logo"></span>
